@@ -13,6 +13,8 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
+      - key: CHAT_BASE_TOKEN 
+        sync: false
       - key: CHUNK_SIZE 
         value: 128
       - key: AUTH_USERS 
